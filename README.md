@@ -1,7 +1,6 @@
 # Probability-Statistics
-Projects from CSE 107, taught by Chen Qian at UC Santa Cruz. Projects programmed
-using Python.
+These projects were adapted from assignments given in CSE 107 (Probability and Statistics for Engineers) taught by Chen Qian at UC Santa Cruz. My implementations were programmed using Python3.
 
 ## Projects
-* `BloomFilter`
-* `NaiveBayesClassifier`
+* `BloomFilter` - Implementation of a Bloom Filter used to predict malicious URLs.
+* `NaiveBayesClassifier` - Implementation of a Naive Bayes Classifier used to predict spam emails.

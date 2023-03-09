@@ -4,10 +4,7 @@
 * `README.md` - This README.
 
 ## Details
-This project was originally submitted as an assignment given in CSE 107 (Probability and Statistics for
-Engineers) taught by Chen Qian at UC Santa Cruz. Starter code for the functions `hash()`, `main()`, and the
-`BloomFilter` class were provided to all students. The functions `add()` and `contains` were self implemented.
-This is an implementation of a Bloom Filter.
+Starter code for the functions `hash()`, `main()`, and the `BloomFilter` class were provided to all students. The functions `add()` and `contains` were self implemented. This is an implementation of a Bloom Filter.
 
 ## Usage
 While in the `BloomFilter` directory within the terminal, type `python3 bloom_filter.py`. This will run the

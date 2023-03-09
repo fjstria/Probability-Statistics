@@ -1,16 +1,7 @@
-# This starter code was written by Alex Tsun.
+# FJ Tria
+# bloom_filter.py
 
-# Student Name: Feli Tria
-# UCSC Email  : ftria@ucsc.edu
-
-# =============================================================
-# You may define helper functions, but DO NOT MODIFY
-# the parameters or names of the provided functions.
-# The autograder will expect that these functions exist
-# and attempt to call them to grade you.
-
-# Do NOT add any import statements.
-# =============================================================
+# Starter code was written by Alex Tsun.
 
 import numpy as np
 import mmh3
@@ -58,6 +49,8 @@ class BloomFilter:
         """
         for i in range(self.k):
             self.t[i][self.hash(x, i)] = True
+        # END FOR
+    # END add()
 
     def contains(self, x) -> bool:
         """
@@ -78,10 +71,12 @@ class BloomFilter:
         for i in range(self.k):
             if self.t[i][self.hash(x, i)] == False:
                 return False
+            # END IF
+        # END FOR
         return True
+    # END contains()
 
 if __name__ == '__main__':
-    # You can test out things here. Feel free to write anything below.
 
     # Create a new bloom filter structure.
     bf = BloomFilter(k=10, m=8000) # 10 * 8,000 = 80,000 bits = 10 KB
@@ -104,5 +99,3 @@ if __name__ == '__main__':
             fpr += 1
     fpr /= len(test_urls)
     print("The false positive is: {}".format(fpr))
-
-    print("Please include your Solution for problem (b) in the submitted pdf file.")

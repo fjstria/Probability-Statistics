@@ -1,15 +1,5 @@
-# python code for project naive bayes classifier
-# in CSE 107 in 2023 winter, UC Santa Cruz
-
-# Student Name: Feli Tria
-# UW Email    : ftria@ucsc.edu
-
-# =============================================================
-# You may define helper functions, but DO NOT MODIFY
-# the parameters or names of the provided functions.
-
-# Do NOT add any import statements.
-# =============================================================
+# FJ Tria
+# naive_bayes.py
 
 import numpy as np
 import os
